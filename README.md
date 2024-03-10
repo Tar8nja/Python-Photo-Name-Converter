@@ -9,6 +9,6 @@ This changes the name to the date of the creation of each file. Modifications of
 ## Instructions
 
 1) Download the '.py' file from this repo.
-2) Place the '.py' file at the same directory (same folder) of the media.
+2) Place the '.py' file at the same directory (same folder) as the media.
 3) Execute the '.py' file.
 4) Follow the instructions given by the program.
