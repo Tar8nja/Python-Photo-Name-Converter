@@ -23,6 +23,9 @@ FILE_NAME = '_date_renamer.py'
 MONTH = {'Jan':'01', 'Feb':'02', 'Mar':'03', 'Apr':'04', 'May':'05', 'Jun':'06',\
          'Jul':'07', 'Aug':'08', 'Sep':'09', 'Oct':'10', 'Nov':'11', 'Dec':'12' }
 
+SUPPORTED_FILE_EXTENSIONS = ['.jpg', '.jpeg', '.png', '.raw', '.arw', '.mp4', '.mts'
+                           '.JPG', '.JPEG', '.PNG', '.RAW', '.ARW', '.MP4', '.MTS']
+
 
 path = os.path.abspath(__file__).replace(FILE_NAME,'')
 file_name_list = os.listdir(path)
@@ -58,8 +61,7 @@ try:
 
         file_extension = os.path.splitext(file)[1] # Get the extension
 
-        if file_extension not in ['.jpg', '.jpeg', '.png', '.raw', '.arw', '.mp4', '.mts'
-                                '.JPG', '.JPEG', '.PNG', '.RAW', '.ARW', '.MP4', '.MTS']:
+        if file_extension not in SUPPORTED_FILE_EXTENSIONS:
             previous_text += '\nFile with the name ' + file + ' unable to modify.'
             continue # Only change names of images & videos
 
