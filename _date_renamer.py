@@ -32,7 +32,7 @@ print('The script is exectuing...')
 
 previous_text = """Number of files: %i
 Press anything to continue, close the script to exit.
-The script is exectuing...""" %(int(len(file_name_list)-1))
+The script is exectuing...\n""" %(int(len(file_name_list)-1))
 
 j = 1
 i = 0
@@ -60,7 +60,7 @@ try:
 
         if file_extension not in ['.jpg', '.jpeg', '.png', '.raw', '.arw', '.mp4', '.mts'
                                 '.JPG', '.JPEG', '.PNG', '.RAW', '.ARW', '.MP4', '.MTS']:
-            previous_text += 'File with the name ' + file + ' unable to modify.\n'
+            previous_text += '\nFile with the name ' + file + ' unable to modify.'
             continue # Only change names of images & videos
 
         if file_extension == '.mts':
@@ -126,4 +126,4 @@ try:
 except:
     print('Something went wrong.')
 
-input('The script has finalized.\nPress anything to exit.')
+input('\nThe script has finalized.\nPress anything to exit.')
