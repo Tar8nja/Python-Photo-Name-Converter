@@ -14,10 +14,17 @@ I hope this works well, it does for me.
 *  .mp4
 *  .mts
 
+## Important information
 
-## Instructions
+1.  Accesses the data of the file, extracts the creation date and uses it as the new file name.
+2.  Mantains the UPPER/lower case of the file extension.
+3.  Converts '.mts' to '.mp4'.
+4.  To add file extensions, moddify the list 'SUPPORTED_FILE_EXTENSIONS'.
+5.  I can only guarantee that the code is safe for the current file types. Adding any by yourself is on your behalf.  
 
-1) Download the '.py' file from this repo.
-2) Place the '.py' file at the same directory (same folder) as the media.
-3) Execute the '.py' file.
-4) Follow the instructions given by the program.
+## Instructions of use
+
+1.  Download the '.py' file from this repo.
+2.  Place the '.py' file at the same directory (same folder) as the media.
+3.  Execute the '.py' file.
+4.  Follow the instructions given by the program.
