@@ -23,8 +23,8 @@ FILE_NAME = '_date_renamer.py'
 MONTH = {'Jan':'01', 'Feb':'02', 'Mar':'03', 'Apr':'04', 'May':'05', 'Jun':'06',\
          'Jul':'07', 'Aug':'08', 'Sep':'09', 'Oct':'10', 'Nov':'11', 'Dec':'12' }
 
-SUPPORTED_FILE_EXTENSIONS = ['.jpg', '.jpeg', '.png', '.raw', '.arw', '.mp4', '.mts',
-                           '.JPG', '.JPEG', '.PNG', '.RAW', '.ARW', '.MP4', '.MTS']
+SUPPORTED_FILE_EXTENSIONS = ['.jpg', '.jpeg', '.png', '.raw', '.arw', '.mp4', '.mts', '.nef',
+                           '.JPG', '.JPEG', '.PNG', '.RAW', '.ARW', '.MP4', '.MTS', '.NEF']
 
 
 path = os.path.abspath(__file__).replace(FILE_NAME,'')
