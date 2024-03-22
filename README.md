@@ -13,6 +13,7 @@ I hope this works well, it does for me.
 *  .arw
 *  .mp4
 *  .mts
+*  .nef
 
 ## Important information
 
