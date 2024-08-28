@@ -65,10 +65,10 @@ try:
             previous_text += '\nFile with the name ' + file + ' unable to modify.'
             continue # Only change names of images & videos
 
-        if file_extension == '.mts':
-            file_extension = '.mp4'
-        elif file_extension == '.MTS':
-            file_extension = '.MP4'
+        # if file_extension == '.mts':
+            # file_extension = '.mp4'
+        # elif file_extension == '.MTS':
+            # file_extension = '.MP4'
 
 
 
